@@ -1,0 +1,15 @@
+(\project_{age} (Person \join (\select_{pizza="mushroom"} Eats)))
+\diff
+(\rename_{age}(\project_{age1}(\select_{age1<age2}
+(((\rename_{name, age1, gender} Person) \join (\select_{pizza="mushroom"} Eats))
+\cross
+((\rename_{name, age2, gender} Person) \join (\select_{pizza="mushroom"} Eats)))
+)))
+
+
+(\project_{pizzeria} Serves)
+\diff
+(\project_{pizzeria}(
+(\project_{pizza}(\select_{age>30}(Person \join (Eats \join Serves))))
+\join Serves))
+
