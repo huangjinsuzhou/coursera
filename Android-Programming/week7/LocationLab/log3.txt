@@ -1,0 +1,8 @@
+03-06 07:56:38.297: I/Lab-Location(1572): Entered footerView.OnClickListener.onClick()
+03-06 07:56:38.837: I/Lab-Location(1572): Starting Place Download
+03-06 07:56:42.188: I/Lab-Location(1572): Entered addNewPlace()
+03-06 07:56:43.615: I/Lab-Location(1572): Entered footerView.OnClickListener.onClick()
+03-06 07:56:44.144: I/Lab-Location(1572): Starting Place Download
+03-06 07:56:46.731: I/Lab-Location(1572): Entered addNewPlace()
+03-06 07:56:49.661: I/Lab-Location(1572): Place: The Greenhouse Country: United States
+03-06 07:56:50.172: I/Lab-Location(1572): Place: Berwyn Country: United States
